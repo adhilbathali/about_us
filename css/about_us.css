@@ -196,6 +196,8 @@ p{
 @media screen and (max-width:850px) {
     .mission-vision{
         flex-direction: column;
+        border-radius: 8px 8px 0 0;
+        box-shadow: 4px 7px 7px 0px rgba(0, 0, 0, 0.1);
     }
     #mission-image {
         order: 1;
@@ -208,6 +210,7 @@ p{
         border-radius: 8px 8px 0 0;
     }
     .description{
+        border-bottom: 2px solid #2190ff;
         margin-top: 0;
     }
 }
@@ -295,7 +298,6 @@ p{
     height: fit-content;
     box-shadow: -4px -7px 7px 0px rgba(0, 0, 0, 0.1);
     transition: all .4s ease-in-out;
-    margin-top: 100px;
     margin-bottom: 50px;
 }
 .blockquote:hover {
