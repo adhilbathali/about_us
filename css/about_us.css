@@ -109,8 +109,10 @@ p{
     display: none;
 }
 @media screen and (max-width:1220px) {
+    .hero-section {
+        overflow-x: hidden;
+    }
     .hero-text {
-        min-width: 90vh;
         top: 30%;
         left: 50%;
         background-color: rgba(0, 0, 0, 0.5);
