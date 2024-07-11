@@ -105,12 +105,15 @@ p{
     margin-top: 0;
     margin-bottom: 10px;
 }
+.layer {
+    display: none;
+}
 @media screen and (max-width:1220px) {
     .hero-text {
-        top: 20%;
+        min-width: 90vh;
+        top: 30%;
         left: 50%;
         background-color: rgba(0, 0, 0, 0.5);
-        min-width: 400px;
     }
     .hero-text h1{
         font-size: 40px;
@@ -123,6 +126,19 @@ p{
         font-weight: normal;
         font-size: 24px;
         font-style: italic;
+    }
+    .hero-image-container img {
+        max-width: 100%;
+        min-height: 400px;
+        object-fit: cover;
+        vertical-align: middle;
+        font-style: italic;
+        background-repeat: no-repeat;
+        background-size: cover;
+        shape-margin: 1rem;
+    }
+    #intro {
+        position: static;
     }
 }
 
@@ -137,6 +153,7 @@ p{
     flex-direction: row;
     margin: 30px;
     align-items: center;
+    overflow: hidden;
 }
 #mission-description {
     order: 1;
